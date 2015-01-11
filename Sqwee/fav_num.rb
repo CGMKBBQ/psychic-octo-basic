@@ -10,6 +10,6 @@ puts "#{name}, what\'s your favorite number?"
 fav_num = gets.chomp
 one = 1
 #compliment the number and suggest a new favorite number
-puts " #{fav_num} is a fine number."
+puts "#{fav_num} is a fine number."
 puts "Mebbe  #{fav_num.to_i + 1} might possibly be a bigger and better favorite number."
 puts "Think it over."
