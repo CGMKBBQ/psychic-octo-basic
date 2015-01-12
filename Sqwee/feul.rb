@@ -21,3 +21,10 @@ purch_gallons = gets.chomp
 #calculate total purchase
 puts "It will cost $ #{sales_price.to_i * purch_gallons.to_i}"
 end
+
+<<-PLANS
+1. ask for and store odo reading
+2. calculate and store MPG
+3. calculate and store avg mpg over time
+4. graph?
+PLANS
