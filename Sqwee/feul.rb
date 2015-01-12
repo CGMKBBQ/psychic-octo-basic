@@ -6,11 +6,11 @@ price = 1.99
 puts "How many gallons  is your cars feul tank?"
 tank = gets.chomp
 # calculate how much a fill up would cost
-puts "Then to fill your car it will cost #{tank.to_i * price} dollars."
+puts "Then to fill your car it will cost $#{tank.to_i * price} dollars.\n\n"
 end
 
 begin
-puts "ROUND TWO - GO!"
+puts "ROUND TWO - GO!\n\n"
 # REV 2 - making it dynamic
 # ask sales price
 puts "What is the sales price of today's feul?"
@@ -19,7 +19,7 @@ sales_price = gets.chomp
 puts "How many gallons are you purchasing today?"
 purch_gallons = gets.chomp
 #calculate total purchase
-puts "It will cost $ #{sales_price.to_i * purch_gallons.to_i}"
+puts "It cost $#{sales_price.to_i * purch_gallons.to_i}.\n\n"
 end
 
 <<-PLANS
