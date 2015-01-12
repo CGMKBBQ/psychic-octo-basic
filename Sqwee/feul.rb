@@ -18,7 +18,7 @@ sales_price = gets.chomp
 # ask gallons
 puts "How many gallons are you purchasing today?"
 purch_gallons = gets.chomp
-#calculate total purchase
+# calculate total purchase
 puts "It cost $#{sales_price.to_i * purch_gallons.to_i}.\n\n"
 end
 
