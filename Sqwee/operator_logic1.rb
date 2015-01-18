@@ -1,4 +1,4 @@
-<- CHALLENGE
+<<- CHALLENGE
 Set the return value of the "check_speed" method to the string "safe" depending on the following condition:
 
     The speed passed in as an argument is at least 40.
