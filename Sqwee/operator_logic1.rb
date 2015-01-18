@@ -9,6 +9,8 @@ CHALLENGE
 
 def check_speed(car_speed)
   # write your code here
-  if (check_speed >= 40) && (check_speed >= 50)
-        return "safe"
+if car_speed >= 40 && car_speed <= 50
+    return "safe"
+  end
+
 end
