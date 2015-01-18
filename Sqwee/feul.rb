@@ -14,12 +14,12 @@ puts "ROUND TWO - GO!\n\n"
 # REV 2 - making it dynamic
 # ask sales price
 puts "What is the sales price of today's feul?"
-sales_price = gets.chomp
+sales_price = gets.chomp.to_i
 # ask gallons
 puts "How many gallons are you purchasing today?"
-purch_gallons = gets.chomp
+purch_gallons = gets.chomp.to_i
 # calculate total purchase
-puts "It cost $#{sales_price.to_i * purch_gallons.to_i}.\n\n"
+puts "It cost $#{sales_price * purch_gallons}.\n\n"
 end
 
 <<-PLANS
