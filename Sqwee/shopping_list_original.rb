@@ -1,5 +1,5 @@
 def create_list
-  print "What do you want to call the list? "
+  print "What is the name of the list? "
   name = gets.chomp
   
   hash = { "name" => name, "items" => Array.new }
@@ -7,7 +7,7 @@ def create_list
   end
 
 def add_list_item
-  print "What do you want to add? "
+  print "What is the item to be added? "
   item_name = gets.chomp
   
   print "How many? "
@@ -37,17 +37,9 @@ def print_list(list)
 list = create_list()
 
 puts "Great, add some items to your list."
-
-
-answer = ""
-loop do
-
 list['items'].push(add_list_item())
-
-puts "Do you have more items you want to add? (y/n) "
-answer = gets.chomp.downcase
-break if answer == "n"
-end 
+list['items'].push(add_list_item())
+list['items'].push(add_list_item())
 
 puts "Here is your list:\n"
 print_list(list)
